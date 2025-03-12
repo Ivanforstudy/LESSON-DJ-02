@@ -6,4 +6,4 @@ def index(request):
     return render(request, 'main/index.html')  # Убедитесь, что используете правильный шаблон
 
 def new(request):
-    return HttpResponse("<h1>Это вторя страница моего проекта на django</h1>")
+    return render(request, 'main/new.html')
